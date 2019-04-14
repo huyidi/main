@@ -4,13 +4,14 @@ ifdef::env-github,env-browser[:imagesDir: docs/images]
 
 https://travis-ci.org/CS2113-AY1819S2-M11-1/main[image:https://travis-ci.org/CS2113-AY1819S2-M11-1/main.svg?branch=master[Build Status]]
 https://coveralls.io/github//CS2113-AY1819S2-M11-1/main?branch=master[image:https://coveralls.io/repos/github/CS2113-AY1819S2-M11-1/main/badge.svg?branch=master[Coverage Status]]
+https://github.com/CS2113-AY1819S2-M11-1/main/blob/master/LICENSE[image:https://img.shields.io/badge/license-MIT-orange.svg?logo=github&logoColor=white[MIT License]]
 
 image::Ui.png[]
 
 * This is a CLI (Command Line Interface) League Tracker application *written in OOP fashion*. It has a very basic GUI.
-* It is a Java application intended for League Operators to manage teams, players, matches records.
+* It is a Java application intended for League Operators to manage team, player and match records.
 
-*Useful Links*
+*Site Map*
 
 * <<UserGuide#, User Guide>>
 * <<DeveloperGuide#, Developer Guide>>

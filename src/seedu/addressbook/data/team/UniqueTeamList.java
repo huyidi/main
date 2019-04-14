@@ -121,8 +121,8 @@ public class UniqueTeamList implements Iterable<Team> {
      */
     public void sort() {
         Comparator<Team> customTeamCompare = Comparator
-                .comparing(Team::getPoints)
-                .thenComparing(Team::getWins)
+                .comparing(Team::getPoints).reversed()
+                .thenComparing(Team::getLoses)
                 .thenComparing(Team::getTeamName);
         Collections.sort(internalList, customTeamCompare);
     }
@@ -146,8 +146,8 @@ public class UniqueTeamList implements Iterable<Team> {
     /**
      * Finds team with matching teamName from list of teams.
      *
-     * @param target
-     * @return
+     * @param target Team name of targeted team.
+     * @return Targeted team
      * @throws TeamNotFoundException if team is not found
      */
     public Team find (TeamName target) throws TeamNotFoundException {
